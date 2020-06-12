@@ -41,7 +41,7 @@
 		<p class="lead">Shorty URL is a URL shortening service designed and implemented as a personal project.</p>
 		<hr class="my-4">
 		<p> It utilises an MVC structure and has been developed using Spring Boot, HTML, CSS, Bootstrap, JSP and Tomcat v9.0. </p>
-		<a class="btn btn-primary btn-lg" href="#" role="button">About the developer</a>
+		<a class="btn btn-primary btn-lg" href="https://aayushb.com/" role="button">About the developer</a>
 	  </div>
 	  
 	  <div id="home" style="margin-top:200px;">
