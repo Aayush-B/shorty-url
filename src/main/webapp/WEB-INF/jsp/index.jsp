@@ -95,15 +95,15 @@
 		<h2 class="text-center">API</h2><br>
 		<ul class="list-group">
 			<li class="list-group-item text-center font-weight-bold"><h3 style="margin-top:20px;">POST (Compress URL) : </h3><br><br>
-			POST Request @ http://shorty-url.aayushb.com/api/compress-url <br><br>
+			POST Request @ https://shorty-url.aayushb.com/api/compress-url <br><br>
 			Request Body Example :
 			{
-				"userUrl":"www.google.com"
+				"userUrl":"www.google.com" websie
 			}
 			</li>
 			<li class="list-group-item text-center font-weight-bold"><h3 style="margin-top:20px;">GET (Decompress URL) :</h3>
 				<br><br>
-			GET Request @ http://shorty-url.aayushb.com/api/decompress-url<br><br>
+			GET Request @ https://shorty-url.aayushb.com/api/decompress-url<br><br>
 			Request Body Example : For URL - http://shorty-url.aayushb.com/b : 
 			{
 				"userUrl":"b"
