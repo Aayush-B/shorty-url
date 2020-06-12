@@ -64,7 +64,7 @@
 	  %>
 	  <br>
 	  <div class="alert alert-success text-center" role="alert">
-		Your Shorty URL : http://localhost:8080/shorty-url/<%= viewParams.get("compressedUrl") %>
+		Your Shorty URL : http://shorty-url.aayushb.com/<%= viewParams.get("compressedUrl") %>
 	  </div>
 	  <%
 			}
@@ -95,7 +95,7 @@
 		<h2 class="text-center">API</h2><br>
 		<ul class="list-group">
 			<li class="list-group-item text-center font-weight-bold"><h3 style="margin-top:20px;">POST (Compress URL) : </h3><br><br>
-			POST Request @ http://localhost:8080/shorty-url/api/compress-url <br><br>
+			POST Request @ http://shorty-url.aayushb.com/api/compress-url <br><br>
 			Request Body Example :
 			{
 				"userUrl":"www.google.com"
@@ -103,10 +103,10 @@
 			</li>
 			<li class="list-group-item text-center font-weight-bold"><h3 style="margin-top:20px;">GET (Decompress URL) :</h3>
 				<br><br>
-			GET Request @ http://localhost:8080/shorty-url/api/decompress-url<br><br>
-			Request Body Example : For URL - http://localhost:8080/shorty-url/a : 
+			GET Request @ http://shorty-url.aayushb.com/api/decompress-url<br><br>
+			Request Body Example : For URL - http://shorty-url.aayushb.com/b : 
 			{
-				"userUrl":"a"
+				"userUrl":"b"
 			}
 			</li>
 		</ul>
